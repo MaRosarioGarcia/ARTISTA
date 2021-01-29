@@ -1,0 +1,229 @@
+body{
+  background-image: url(../imagenes/fondos/blue-snow.png);
+  margin: 10px auto;
+  color: rgb(255 255 255);
+  width: 80%;
+
+}
+.logo-left
+{
+	float: left;
+	padding: 20px 20px 0px 20px;
+	width: 10px;
+	height: 12px;
+}
+div>h1
+{
+  color: rgb(255 255 255);/*titulo*/
+	letter-spacing: 10px; /Espacio entre letras/
+  font-family: 'Lobster',cursive;
+	text-transform: uppercase;/Transformación del texto a mayúsculas/
+	font-weight:bold;/Fuente en negritas/
+  text-align: center;/Alineación del texto/
+  text-shadow:rgb(82,139,139) 6px 6px 8px; /* los tres números indican distancia horizontal, vertical y difuminado*/
+                  /*amarillo*/
+}
+
+
+
+
+header
+{
+  object-fit:contain;
+  width:300%auto;
+  height:300px ;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 25px 25px 0px 0px;
+  border-style: none;
+}
+nav{
+  display:block;
+  width: 100%;|
+  text-align: center;
+}
+nav ul
+{
+  list-style: none;
+}
+nav li{
+  display: inline-block;
+  margin-right: 2px;
+  margin-top: 0.2em;
+}
+.boton
+{
+  background-color: rgb(224 255 255);/*gris de los botones*/
+  color: #000000;
+  display: inline-block;
+  font-size: 1em;
+  margin: 3px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 100px;
+  text-decoration: none;
+  box-shadow: 0px 02px 5px rgb(82,139,139);/*gris de los botones*/
+}
+.boton.redondo
+{
+  border-radius: 30px;
+}
+.boton:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255,255,255);/*color de letra de los botones cuando lo pasas ensima*/
+  box-shadow: 0px 02px 5px rgb(82,139,139);/*gris de los botones*/
+  padding-top: 7px;
+}
+.boton img{
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.botonredes
+{
+  display: inline-flex;
+  width: 10px;
+  height: 15px;
+  padding: 10px;
+  background-color:rgb(0,0,0);
+  border-radius: 100%;
+}
+.botonredes img
+{
+  width: 15px;
+  height: 15px;
+}
+.botonredes:hover
+{
+  background-color:rgb(0,0,0);/*negro*/
+  border-radius: 300%;
+  box-shadow:  0px 0px 5px rgb(255,255,255);/*aqua*/
+}
+.contenedor
+{
+  padding: 10px 20px 10px 20px;
+  background: rgb(0 128 128);/* color de fondo */
+  border-radius: 2em;
+  box-shadow: 0px 5px 3px rgb(0,0,0);/*negro*/
+}
+section
+{
+	float: left;
+	width: 70%;
+	text-align:justify;
+	margin-top: 10px;
+}
+article/* BOTONES QUE ES¿¿*/
+{
+
+	margin-bottom: 20px;
+	padding: 5px;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(0,0,0);/*negro*/
+  background-color: rgb(224 255 255);
+}
+aside{
+	float: right;
+	width:30%;
+	text-align: justify;
+	margin-top: 0px;
+}
+blockquote
+{
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius:10px 10px 10px 10px;
+	border-style: solid;
+	border-width: 2px;
+  border-color: rgb(0,0,0);/*negro*/
+  background-color: rgb(82,139,139);
+}
+.izq
+{
+	float:left;
+
+}
+.der
+{
+	float: right;
+	padding-right: 20px;
+}
+.enlace-footer
+{
+  font-size: 13px;
+  color: rgb(0,0,0);
+  padding-right: 20px;
+  text-decoration: none;
+}
+.enlace-footer:hover
+{
+  color: rgb(0,0,0);
+  text-shadow: 0px 0px 5px rgb(255,255,255);
+  text-decoration: underline;
+}
+footer>p
+{
+text-align: center;
+color: rgb(0,0,0);
+font-size: 13px;
+font-family: 'Roboto', sans-serif;
+}
+footer
+{
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background-color: rgb(82,139,139);
+	margin-bottom:0px;
+	padding: 0px;
+	border-radius: 0px 0px 25px 25px; /superior, derecho, inferior, izquierdo/
+	border-style: none;
+}
+img.radius
+{
+  width: 35%;
+  height: 35%;
+  float: right;
+  border-radius: 100%;
+  border-style: solid;
+  margin: 3px auto;
+  border:2px solid rgb(82,139,139);
+  padding: 10px;
+  margin: 10px;
+}
+p
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+ }
+.enlace-aside{
+  font-size: 1em;
+  color:rgb(255, 255, 255);
+  padding-right: 5px;
+  text-decoration:none;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.enlace-aside:hover
+{
+  color:rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px rgb(189, 163, 30);
+  text-decoration: underline;
+  font-weight: bold;
+}
+.html{
+  font-size: 1em;
+  color:rgb(0 0 0);
+  padding-right: 5px;
+  text-decoration:none;
+  font-weight: bold;
+
+  font-weight: bold;
+}
